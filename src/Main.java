@@ -9,8 +9,7 @@ public class Main {
         if (paid > 1000) {
             bonus = paid / 100;
             finalBalance = startBalance + paid + bonus;
-        }
-        else {
+        } else {
             finalBalance = startBalance + paid;
             bonus = 0;
         }
